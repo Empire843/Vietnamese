@@ -1,0 +1,141 @@
+
+.homepage-container .lesson {
+    background-color: #f7f3ea;
+    height: 600px;
+}
+
+/* Duy */
+.profile .card {
+    /* padding-bottom: 1.5rem; */
+    border-radius: 10px;
+}
+.profile-img {
+    z-index: 1;
+}
+.profile .card h3 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+
+.profile .table th,
+.profile .table td {
+    font-size: 16px;
+    padding: 5px 10px;
+    color: #000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    padding-top: 0
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.bg-transparent {
+    background-color: transparent !important
+}
+
+.col-lg-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%
+}
+
+.col-lg-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.container {
+    width: 80%;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    border: 0;
+}
+
+.card-header2 {
+    margin-top: 15px;
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(225, 243, 87, 0.83);
+    border-radius: .25rem;
+    cursor: pointer;
+    border: 0
+}
+
+.card-header2:hover {
+    background-color: greenyellow;
+}
+
+.footer-top {
+    border-top: 1px solid black;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: rgb(238, 0, 51);
+}
+
+.footer-bottom {
+    height: 50px;
+    background-color: rgb(255, 166, 187);
+    padding-top: 30px;
+    display: flex;
+    justify-content: center
+}
+.mau {
+    background-color: rgb(239, 235, 235);
+}
+
+/*.inputfile + label {
+    font-size: 1.25rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    pointer-events: none;
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+}
+.inputfile + label svg {
+    fill: #fff;
+}*/

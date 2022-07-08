@@ -1,0 +1,33 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;    
+    overflow: none;
+}
+
+.logo-container {
+    height: 73px;
+    background-color: rgb(117,113,249);
+}
+
+.admin-tools-icon {
+    color: #464a53;
+    width: 20px;
+}
+
+.list-tools:hover {
+    background-color: #F3F1FA; 
+}
+
+.active-admin-tools {
+    background-color: #F3F1FA;
+}

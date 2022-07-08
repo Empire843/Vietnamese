@@ -1,0 +1,49 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;    
+    overflow: none;
+}
+
+.logo-container {
+    height: 73px;
+    background-color: rgb(117,113,249);
+}
+
+.admin-tools-icon {
+    color: #464a53;
+    width: 20px;
+}
+
+.list-tools:hover {
+    background-color: #F3F1FA; 
+}
+
+.active-admin-tools {
+    background-color: #F3F1FA;
+}
+
+.icons-table {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid red;
+    width: 32px;
+    height: 32px;
+    color: red;
+}
+
+.icons-table:hover {
+    transform: translateY(-2px);
+}
